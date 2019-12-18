@@ -25,5 +25,10 @@ namespace R5T.Smyni.Norsica
             var solutionFilePath = this.VisualStudioSolutionFilePathProvider.GetVisualStudioSolutionFilePath(solutionDirectoryPath, solutionName);
             return solutionFilePath;
         }
+
+        public void AddProjectFileToSolutionFile(string solutionFilePath, string projectFilePath)
+        {
+            this.DotnetOperator.AddProjectFileToSolutionFile(solutionFilePath, projectFilePath);
+        }
     }
 }
