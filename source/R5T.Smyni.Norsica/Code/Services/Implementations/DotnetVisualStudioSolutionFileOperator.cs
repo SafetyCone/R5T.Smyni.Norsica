@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
-using R5T.Norsica;
+using R5T.Norsica;using R5T.T0064;
 
 
 namespace R5T.Smyni.Norsica
-{
-    public class DotnetVisualStudioSolutionFileOperator : IVisualStudioSolutionFileOperator
+{[ServiceImplementationMarker]
+    public class DotnetVisualStudioSolutionFileOperator : IVisualStudioSolutionFileOperator,IServiceImplementation
     {
         private IDotnetOperator DotnetOperator { get; }
         private IVisualStudioSolutionFilePathProvider VisualStudioSolutionFilePathProvider { get; }

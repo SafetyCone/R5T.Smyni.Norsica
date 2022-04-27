@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Smyni.Norsica.Construct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Smyni.Norsica.Testing", "R5T.Smyni.Norsica.Testing\R5T.Smyni.Norsica.Testing.csproj", "{6D8CDB47-82B0-4C5B-ADEF-99E40C75B962}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{EADA6BCB-2373-4463-8BCB-EF5644E9D33F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{DD7382EC-4843-4EE0-A684-F53E2BE56F84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{6D8CDB47-82B0-4C5B-ADEF-99E40C75B962}.Release|x64.Build.0 = Release|Any CPU
 		{6D8CDB47-82B0-4C5B-ADEF-99E40C75B962}.Release|x86.ActiveCfg = Release|Any CPU
 		{6D8CDB47-82B0-4C5B-ADEF-99E40C75B962}.Release|x86.Build.0 = Release|Any CPU
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84}.Debug|x64.Build.0 = Debug|Any CPU
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84}.Debug|x86.Build.0 = Debug|Any CPU
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84}.Release|x64.ActiveCfg = Release|Any CPU
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84}.Release|x64.Build.0 = Release|Any CPU
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84}.Release|x86.ActiveCfg = Release|Any CPU
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD7382EC-4843-4EE0-A684-F53E2BE56F84} = {EADA6BCB-2373-4463-8BCB-EF5644E9D33F}
 	EndGlobalSection
 EndGlobal
